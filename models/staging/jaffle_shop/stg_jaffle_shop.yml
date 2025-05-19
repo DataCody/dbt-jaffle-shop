@@ -2,8 +2,10 @@ version: 2
 
 models:
   - name: stg_jaffle_shop_customers
+    description: one unique customer per row
     columns:
       - name: customer_id
+        description: primary key
         tests:
           - unique
           - not_null
@@ -11,6 +13,7 @@ models:
   - name: stg_jaffle_shop_orders
     columns:
       - name: order_id
+        description: one order per row
         tests:
           - unique
           - not_null
@@ -20,6 +23,7 @@ models:
               to: ref('stg_jaffle_shop_customers')
               field: customer_id
       - name: status
+        description: "{{doc('order_status')}}"
         tests:
           - accepted_values:
               values: ['shipped', 'completed', 'return_pending', 'returned', 'placed']
