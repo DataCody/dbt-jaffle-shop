@@ -74,4 +74,5 @@ Configured dbt Cloud jobs with the following characteristics:
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+
+This project is licensed under the [MIT License](LICENSE).
