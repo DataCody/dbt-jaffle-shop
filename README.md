@@ -32,6 +32,7 @@ This repository is a customized implementation of the [dbt-labs/jaffle-shop](htt
 ├── macros/
 ├── snapshots/
 ├── dbt_project.yml
+├── LICENSE
 └── README.md
 </code></pre>
 
@@ -47,9 +48,11 @@ Implemented comprehensive testing strategies to ensure data reliability:
 - Auto-Generated Docs: Utilized dbt docs generate for creating interactive documentation.
 - Data Lineage: Visualized model dependencies and data flow.
 
-### 📸 Placeholder for documentation screenshot
+### 📸 Documentation screenshot
+![Lineage Graph](docs/assets/docs_screenshot.png)
 
-### 📸 Placeholder for DAG visualization
+### 📸 DAG visualization
+![Lineage Graph](docs/assets/dag.png)
 
 ## 🗓️ Scheduling & Orchestration
 
