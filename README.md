@@ -23,6 +23,8 @@ This repository is a customized implementation of the [dbt-labs/jaffle-shop](htt
 
 ## 🗺️ Project Structure
 <pre><code>dbt-jaffle-shop/
+├── analyses
+├── docs/
 ├── models/
 │   ├── staging/
 │   ├── intermediate/
@@ -49,7 +51,7 @@ Implemented comprehensive testing strategies to ensure data reliability:
 - Data Lineage: Visualized model dependencies and data flow.
 
 ### 📸 Documentation screenshot
-![Lineage Graph](docs/assets/docs_screenshot.png)
+![Lineage Graph](docs/assets/docs.png)
 
 ### 📸 DAG visualization
 ![Lineage Graph](docs/assets/dag.png)
